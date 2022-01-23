@@ -1,0 +1,44 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    margin-right: 30px;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.itemList {
+    margin-top: 10vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: left;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 15vh;
+  height: 7vh;
+
+}
+
+.icons > *:not(:last-child) {
+    margin-right: 5px; 
+} 
+
+.completed {
+    color: green;
+}

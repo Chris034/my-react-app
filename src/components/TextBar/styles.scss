@@ -1,0 +1,31 @@
+
+$border-radius: 2px;
+$border-width: 1px;
+
+.newItem, .submitItem{
+    border-color: #82D0AB;
+    border-style:solid;
+    border-width: $border-width;
+    //fix mobile view
+}
+
+.newItem {
+    background-color: white;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    padding-left: 16px;
+    width: 80%;
+    height: 4vmin;
+}
+
+.submitItem {
+    color: #82D0AB;
+    border-left: none;
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    height: calc(4px + 4vmin);
+    width: 10%;
+
+}
+
+
